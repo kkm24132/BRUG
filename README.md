@@ -75,6 +75,37 @@ Database Management|ROracle|OCI based Oracle database interface for R
 Database Management|RPostgreSQL|R interface to PostgreSQL database system
 Database Management|RSQLite|SQLite interface for R
 
+## Natural Language Processing
+
+Package category|Package Name|Features
+----------------------|---------------------|-------------------------
+NLP Specific|text2vec|Fast Text Mining Framework for Vectorization and Word Embeddings
+NLP Specific|tm|A comprehensive text mining framework for R
+NLP Specific|OpenNLP|Apache OpenNLP Tools Interface
+NLP Specific|koRpus|An R Package for Text Analysis
+NLP Specific|LDAvis|Interactive visualization of topic models
+NLP Specific|SnowballC|Snowball stemmers based on the C libstemmer UTF-8 library
+NLP Specific|Tidytext|Implementing tidy principles of Hadley Wickham to text mining
+
+## Packages for Optimization
+
+Package category|Package Name|Features
+----------------------|---------------------|-------------------------
+Optimization|lpSolve|Interface to Lp_solve to Solve Linear/Integer Programs
+Optimization|Minqa|Derivative-free optimization algorithms by quadratic approximation
+Optimization|Nloptr|NLopt is a free/open-source library for nonlinear optimization
+Optimization|Rglpk|R/GNU Linear Programming Kit Interface
+
+## Computer Vision 
+
+Package category|Package Name|Features
+----------------------|---------------------|-------------------------
+Computer vision|magick|importing / converting to/from all formats / basic image manipulation
+Computer vision|imageR|image processing library based on “CImg” (interpolation, resizing, filtering, fourier transformations, denoising, gradients, blurring)
+Computer vision|OpenImageR|an image processing toolkit (hashing, edge detection, manipulation)
+
+
+
 # BRUG meetup
 ### My presentations / information shared in Bangalore R User Group meetups
 
