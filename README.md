@@ -60,6 +60,20 @@ Package category|Package Name|Features
 Web Search|Rcurl|general network (HTTP/FTP…) client interface for R
 Web Search|Curl|flexible web client for R
 Web Search|Httr|user friendly Rcurl wrapper
+Web Search|shiny|simple interactive web applications with R
+Web Search|Plumber|A library to expose existing R code as web API
+Web Search|Rfacebook|access to facebook API via R
+
+## Database Management
+
+Package category|Package Name|Features
+----------------------|---------------------|-------------------------
+Database Management|RODBC|ODBC database access for R
+Database Management|DBI|common interface between R and DBMS
+Database Management|Elastic|wrapper for elastic search HTTP API
+Database Management|ROracle|OCI based Oracle database interface for R
+Database Management|RPostgreSQL|R interface to PostgreSQL database system
+Database Management|RSQLite|SQLite interface for R
 
 # BRUG meetup
 ### My presentations / information shared in Bangalore R User Group meetups
