@@ -37,6 +37,19 @@ Reproducible Research|knitr|Easy dynamic report generation in R, enables integra
 Reproducible Research|rMarkdown|Next generation implementation of R Markdown based on pandoc
 Reproducible Research|slidify|Generated reproducible html5 slides from R markdown
 
+## Machine Learning Packages
+Package category|Package Name|Features
+----------------------|---------------------|-------------------------
+Machine Learning|mlr|Extensible framework for classification, regression, survival analysis and clustering, easy extension mechanism through S3 inheritance
+Machine Learning|xgboost|Implementation of Gradient Boosted Decision Trees algorithm
+Machine Learning|caret|Multiple model comparision and usage for classification and regression
+Machine Learning|gbm|Generalized Boosted Regression Models
+Machine Learning|prophet|Forecast for time series data, manages data with multiple seasonality with linear or non-linear growth
+Machine Learning|randomforest|Implements Breiman's random forest algorithm for classification
+Machine Learning|Arules|Mining Association Rules and Frequent itemsets
+Machine Learning|Boruta|Wrapper algorithm for all relevant feature selection
+
+
 
 
 # BRUG
