@@ -48,12 +48,21 @@ Machine Learning|prophet|Forecast for time series data, manages data with multip
 Machine Learning|randomforest|Implements Breiman's random forest algorithm for classification
 Machine Learning|Arules|Mining Association Rules and Frequent itemsets
 Machine Learning|Boruta|Wrapper algorithm for all relevant feature selection
+Machine Learning|Forecast|Timeseries forecasting using ARIMA, ETS, STLM, TBATS, and neural network models
+Machine Learning|Anomalize|Tidy Anomaly Detection using Twitter’s AnomalyDetection method
+Machine Learning|AnomalyDetection|AnomalyDetection R package from Twitter
+Machine Learning|e1071|Misc Functions of the Department of Statistics (e1071)
+Machine Learning|MXNet|MXNet brings flexible and efficient GPU computing and state-of-art deep learning to R
 
+## Web Search
+Package category|Package Name|Features
+----------------------|---------------------|-------------------------
+Web Search|Rcurl|general network (HTTP/FTP…) client interface for R
+Web Search|Curl|flexible web client for R
+Web Search|Httr|user friendly Rcurl wrapper
 
-
-
-# BRUG
-### My presentations / information shared in Bangalore R User Group 
+# BRUG meetup
+### My presentations / information shared in Bangalore R User Group meetups
 
 Please refer to Packages_and_OOP_in_R.pdf deck for content on the presentation conducted as part of BRUG. This focuses on Packages and OOP in R (at a high level).
 
