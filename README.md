@@ -1,5 +1,10 @@
 
-# Packages / Libraries in R
+# 1. Deep Learning using R
+P.S. - Please refer to the DeepLearning_using_R.pdf for details.
+Objective is to provide a very high level view about Deep learning and some packages in R. Example of MNIST dataset can be leveraged to showcase the use of R using various libraries.
+
+
+# 2. Packages / Libraries in R
 P.S. - Below does not involve entire exhaustive list. Covers some key and important packages that can be used and helpful.
 
 ## Data Manipulation Packages
