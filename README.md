@@ -1,15 +1,25 @@
+# BRUG meetup
 
-# 1. Deep Learning using R
+### This repository captures most of my presentations / information shared in Bangalore R User Group meetups.
+
+Disclaimer: 
+- The contents of this document are to best of my knowledge and experiences. Some data and names MAY BE tweaked to take care of data privacy and business sensitivity aspects. The information provided is purely to highlight experience gathered with clear business impact created as part of opportunities and NO WAY RELATES TO ANY ORGANIZATION. 
+- Purpose is for knowledge sharing and learning as much as possible.
+
+
+## 1. Deep Learning using R
 
 - P.S: Please refer to the DeepLearning_using_R.pdf for details.
 - Objective is to provide a very high level view about Deep learning and some packages in R. Example of MNIST dataset can be leveraged to showcase the use of R using various libraries.
 
 
-# 2. Packages / Libraries in R
+## 2. Packages / Libraries in R
+
+Please refer to Packages_and_OOP_in_R.pdf deck for content on the presentation conducted as part of BRUG. This focuses on Packages and OOP in R (at a high level).
 
 - P.S.: The following list does not involve entire exhaustive list. However, the intent is to provide some key and important packages that are used and helpful in most CRISP-DM phases.
 
-## Data Manipulation Packages
+### Data Manipulation Packages
 
 Package category|Package Name|Features
 ----------------------|---------------------|-------------------------
@@ -18,7 +28,7 @@ Data Manipulation|data.table|Data aggregation involving large datasets, file rea
 Data Manipulation|lubridate|Working with date and time formats, parsing of date-time data
 Data Manipulation|jsonlite|Robust parsing of JSON objects in R
 
-## Graphic Display Packages
+### Graphic Display Packages
 
 Package category|Package Name|Features
 ----------------------|---------------------|-------------------------
@@ -27,7 +37,7 @@ Graphic Display|corrplot|Abilities to visualize correlation matrices and confide
 Graphic Display|lattice|Emphasis on multivariate data
 
 
-## HTML Widget Packages
+### HTML Widget Packages
 
 Package category|Package Name|Features
 ----------------------|---------------------|-------------------------
@@ -36,7 +46,7 @@ HTML Widget|ggvis|Implementation of an interactive grammar of graphic
 HTML Widget|DT(DataTables)|Displays R matrices and data frames as interactive HTML tables
 HTML Widget|rCharts|Interactive JS charts from R
 
-## Reproducible Research
+### Reproducible Research
 
 Package category|Package Name|Features
 ----------------------|---------------------|-------------------------
@@ -44,7 +54,7 @@ Reproducible Research|knitr|Easy dynamic report generation in R, enables integra
 Reproducible Research|rMarkdown|Next generation implementation of R Markdown based on pandoc
 Reproducible Research|slidify|Generated reproducible html5 slides from R markdown
 
-## Machine Learning Packages
+### Machine Learning Packages
 Package category|Package Name|Features
 ----------------------|---------------------|-------------------------
 Machine Learning|mlr|Extensible framework for classification, regression, survival analysis and clustering, easy extension mechanism through S3 inheritance
@@ -61,7 +71,7 @@ Machine Learning|AnomalyDetection|AnomalyDetection R package from Twitter
 Machine Learning|e1071|Misc Functions of the Department of Statistics (e1071)
 Machine Learning|MXNet|MXNet brings flexible and efficient GPU computing and state-of-art deep learning to R
 
-## Web Search
+### Web Search
 Package category|Package Name|Features
 ----------------------|---------------------|-------------------------
 Web Search|Rcurl|general network (HTTP/FTP…) client interface for R
@@ -71,7 +81,7 @@ Web Search|shiny|simple interactive web applications with R
 Web Search|Plumber|A library to expose existing R code as web API
 Web Search|Rfacebook|access to facebook API via R
 
-## Database Management
+### Database Management
 
 Package category|Package Name|Features
 ----------------------|---------------------|-------------------------
@@ -82,7 +92,7 @@ Database Management|ROracle|OCI based Oracle database interface for R
 Database Management|RPostgreSQL|R interface to PostgreSQL database system
 Database Management|RSQLite|SQLite interface for R
 
-## Natural Language Processing
+### Natural Language Processing
 
 Package category|Package Name|Features
 ----------------------|---------------------|-------------------------
@@ -94,7 +104,7 @@ NLP Specific|LDAvis|Interactive visualization of topic models
 NLP Specific|SnowballC|Snowball stemmers based on the C libstemmer UTF-8 library
 NLP Specific|Tidytext|Implementing tidy principles of Hadley Wickham to text mining
 
-## Packages for Optimization
+### Packages for Optimization
 
 Package category|Package Name|Features
 ----------------------|---------------------|-------------------------
@@ -103,7 +113,7 @@ Optimization|Minqa|Derivative-free optimization algorithms by quadratic approxim
 Optimization|Nloptr|NLopt is a free/open-source library for nonlinear optimization
 Optimization|Rglpk|R/GNU Linear Programming Kit Interface
 
-## Computer Vision 
+### Computer Vision 
 
 Package category|Package Name|Features
 ----------------------|---------------------|-------------------------
@@ -113,10 +123,3 @@ Computer vision|OpenImageR|an image processing toolkit (hashing, edge detection,
 
 
 
-# BRUG meetup
-### My presentations / information shared in Bangalore R User Group meetups
-
-Please refer to Packages_and_OOP_in_R.pdf deck for content on the presentation conducted as part of BRUG. This focuses on Packages and OOP in R (at a high level).
-
-Disclaimer - 
-The contents of this document are to best of my knowledge and experiences. Some data and names MAY BE tweaked to take care of data privacy and business sensitivity aspects. The information provided is purely to highlight experience gathered with clear business impact created as part of opportunities and NO WAY RELATES TO ANY ORGANIZATION.
