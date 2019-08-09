@@ -10,7 +10,7 @@ Disclaimer:
 ### 3) Extreme Gradient Boosting in R
 
 - The purpose is to understand concepts of the scalable tree boosting approach (XGBoost) in R, it's features etc. This solves many data science problems in relatively fast and accurate manner.
-- The code snippet is under /src
+- The code snippet is under ``` /src ```
 
 
 ### 2) Deep Learning using R
