@@ -7,13 +7,19 @@ Disclaimer:
 - Intent is for knowledge sharing and continuous learning as much as possible.
 - Focus is also to share from the quorum and leverage from lessons learnt, continuous learning.
 
-### 1. Deep Learning using R
+### 3) Extreme Gradient Boosting in R
+
+- The purpose is to understand concepts of the scalable tree boosting approach (XGBoost) in R, it's features etc.
+- The code snippet is under /src
+
+
+### 2) Deep Learning using R
 
 - P.S: Please refer to the DeepLearning_using_R.pdf for details.
 - Objective is to provide a very high level view about Deep learning and some packages in R. Example of MNIST dataset can be leveraged to showcase the use of R using various libraries.
 
 
-### 2. Packages / Libraries in R
+### 1) Packages / Libraries in R
 
 Please refer to Packages_and_OOP_in_R.pdf deck for content on the presentation conducted as part of BRUG. This focuses on Packages and OOP in R (at a high level).
 
