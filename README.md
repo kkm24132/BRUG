@@ -1,6 +1,6 @@
 ## BRUG meetup
 
-### This repository captures content of my presentations, code notebooks / information shared in Bangalore R User Group meetups.
+This repository captures content of my presentations, code notebooks / information shared in Bangalore R User Group meetups.
 
 Disclaimer: 
 - The contents of this document are to best of my knowledge and based on my own experiences only. Some data and names MAY BE tweaked/masked to take care of data privacy, sensitivity and business sensitivity aspects if applicable. The information provided is purely to highlight experience gathered with clear business impact created and NO WAY RELATES TO ANY ORGANIZATION or ORGANIZATION's OPINIONS, VIEWS. 
