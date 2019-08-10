@@ -14,18 +14,17 @@ Disclaimer:
 - Please refer to ``` XGBoost_in_R.pdf ``` for the presentation.
 - DIsclaimer: Some of this content, approach are reused from various references. 
 
-
 ### 2) Deep Learning using R
 
-- P.S: Please refer to the DeepLearning_using_R.pdf for details.
+- Please refer to the ``` DeepLearning_using_R.pdf ``` for details.
 - Objective is to provide a very high level view about Deep learning and some packages in R. Example of MNIST dataset can be leveraged to showcase the use of R using various libraries.
 
 
 ### 1) Packages / Libraries in R
 
-Please refer to Packages_and_OOP_in_R.pdf deck for content on the presentation conducted as part of BRUG. This focuses on Packages and OOP in R (at a high level).
+- Please refer to ``` Packages_and_OOP_in_R.pdf ``` deck for content on the presentation conducted as part of BRUG. This focuses on Packages and OOP in R (at a high level).
 
-- P.S.: The following list does not involve entire exhaustive list. However, the intent is to provide some key and important packages that are used and helpful in most CRISP-DM phases.
+- The following list does not involve entire exhaustive list. However, the intent is to provide some key and important packages that are used and helpful in most CRISP-DM phases.
 
 ### R Packages at a glance by category
 
