@@ -11,6 +11,8 @@ Disclaimer:
 
 - The purpose is to understand concepts of the scalable tree boosting approach (XGBoost) in R, it's features etc. This solves many data science problems in relatively fast and accurate manner.
 - The code snippet is under ``` /src ```
+- Please refer to ``` XGboost_in_R.pdf ``` for the presentation.
+- DIsclaimer: Some of this content, approach are reused from various references. 
 
 
 ### 2) Deep Learning using R
