@@ -1,26 +1,25 @@
-## BRUG meetup
+# BRUG meetup
 
 This repository captures content of my presentations, code notebooks / information shared in Bangalore R User Group meetups.
 
-Disclaimer: 
-- The contents of this document are to best of my knowledge and based on my own experiences only. Some data and names MAY BE tweaked/masked to take care of data privacy, sensitivity and business sensitivity aspects if applicable. The information provided is purely to highlight experience gathered with clear business impact created and NO WAY RELATES TO ANY ORGANIZATION or ORGANIZATION's OPINIONS, VIEWS. 
-- Intent is for knowledge sharing and continuous learning as much as possible.
-- Focus is also to share from the quorum and leverage from lessons learnt, continuous learning.
+## 10+10 use cases in Retail in 2020
 
-### 3) Extreme Gradient Boosting in R
+- Please refer to [10plus10_in_Retail_in_2020.pdf](/10plus10_in_Retail_in_2020.pdf) for the presentation.
+
+## Extreme Gradient Boosting in R
 
 - The purpose is to understand concepts of the scalable tree boosting approach (XGBoost) in R, it's features etc. This solves many data science problems in relatively fast and accurate manner.
-- The code snippet is under ``` /src ```
-- Please refer to ``` XGBoost_in_R.pdf ``` for the presentation.
+- The code snippet is under [here](/src)
+- Please refer to [XGBoost_in_R.pdf](/XGBoost_in_R.pdf) for the presentation.
 - DIsclaimer: Some of this content, approach are reused from various references. 
 
-### 2) Deep Learning using R
+## Deep Learning using R
 
-- Please refer to the ``` DeepLearning_using_R.pdf ``` for details.
+- Please refer to the [DeepLearning_using_R.pdf](/DeepLearning_using_R.pdf) for details.
 - Objective is to provide a very high level view about Deep learning and some packages in R. Example of MNIST dataset can be leveraged to showcase the use of R using various libraries.
 
 
-### 1) Packages / Libraries in R
+## Packages / Libraries in R
 
 - Please refer to ``` Packages_and_OOP_in_R.pdf ``` deck for content on the presentation conducted as part of BRUG. This focuses on Packages and OOP in R (at a high level).
 
@@ -121,4 +120,8 @@ Computer vision|imageR|image processing library based on “CImg” (interpolati
 Computer vision|OpenImageR|an image processing toolkit (hashing, edge detection, manipulation)
 
 
+Disclaimer: 
+- The contents of this document are to best of my knowledge and based on my own experiences only. Some data and names MAY BE tweaked/masked to take care of data privacy, sensitivity and business sensitivity aspects if applicable. The information provided is purely to highlight experience gathered with clear business impact created and NO WAY RELATES TO ANY ORGANIZATION or ORGANIZATION's OPINIONS, VIEWS. 
+- Intent is for knowledge sharing and continuous learning as much as possible.
+- Focus is also to share from the quorum and leverage from lessons learnt, continuous learning.
 
