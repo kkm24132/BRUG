@@ -5,6 +5,7 @@ This repository captures content of my presentations, code notebooks / informati
 ## 10+10 use cases in Retail in 2020
 
 - Please refer to [10plus10_in_Retail_in_2020.pdf](/10plus10_in_Retail_in_2020.pdf) for the presentation.
+- The purpose is to present predictions around key business use cases that will continue to dominate in Retail in Data Science and AI in 2020. Stakeholders should focus these use cases to get benefits and create impact and value for their business.
 
 ## Extreme Gradient Boosting in R
 
