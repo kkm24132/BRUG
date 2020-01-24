@@ -2,6 +2,11 @@
 
 This repository captures content of my presentations, code notebooks / information shared in Bangalore R User Group meetups.
 
+## Interpretable Machine Learning
+- Please refer to the deck [ML_Interpretability.pdf](/ML_Interpretability.pdf) for presentation content.
+- The related Jupyter notebook depicting sample dataset demonstration of a LIME package usage is captured [here](https://github.com/kkm24132/BRUG/blob/master/src/MLExplainability_using_LIME.ipynb)
+
+
 ## 10+10 use cases in Retail in 2020
 
 - Please refer to [10plus10_in_Retail_in_2020.pdf](/10plus10_in_Retail_in_2020.pdf) for the presentation.
