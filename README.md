@@ -2,6 +2,9 @@
 
 This repository captures content of my presentations, code notebooks / information shared in Bangalore R User Group meetups.
 
+## Bagging and Boosting in R
+- Please refer to the deck ![Bagging_Boosting_in_R.pdf](/Bagging_Boosting_in_R.pdf) for presentation content.
+
 ## Interpretable Machine Learning
 - Please refer to the deck ![ML_Interpretability.pdf](/ML_Interpretability.pdf) for presentation content.
 - The related Jupyter notebook depicting sample dataset demonstration of a LIME package usage is captured ![here](https://github.com/kkm24132/BRUG/blob/master/src/MLExplainability_using_LIME.ipynb) The [nbviewer version is here](https://nbviewer.jupyter.org/github/kkm24132/BRUG/blob/8c5e0d15b1250f86a47d288a6ea9912279fe2b8a/src/MLExplainability_using_LIME.ipynb) which will display the charts for some LIME explanations appropriately.
