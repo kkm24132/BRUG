@@ -1,4 +1,4 @@
-# BRUG meetup
+# BRUG meetup (Bangalore R User Group)
 
 This repository captures content of my presentations, code notebooks / information shared in Bangalore R User Group meetups.
 
