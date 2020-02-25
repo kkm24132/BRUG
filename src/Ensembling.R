@@ -91,6 +91,88 @@ summary(model_gbm)
 # This also can be used similarly like above 
 # Outcomes can be demonstrated using a similar sample dataset with similar seed settings to compare
 
+set.seed(124)
+
+inTraining <- createDataPartition(Carseats$Sales, p=0.75, list = FALSE)
+train <- Carseats[inTraining,]
+test <- Carseats[-inTraining,]
+
+fitControl <- trainControl(method = "repeatedcv",
+                           number = 6,
+                           repeats = 5)
+
+# Random Forest
+set.seed(124)
+# Grid Search strategy - We also have defined here a grid of algorithm to tunning model. Each axis of grid
+#                        is an algorithm parameter and point in grid are specific combinations of parameter. 
+model_rf <- train(Sales ~ ., 
+                  data = train,
+                  #tuneGrid = expand.grid(mtry = c(6,11),
+                  #  splitrule = c("gini", "extratrees"),
+                  #  min.node.size = c(1, 2, 4, 6, 8, 10)),
+                  method="rf",
+                  metric = "RMSE",
+                  # preprocess definitions:
+                    # zv -  identifies numeric predictor columns with a single value (i.e. having zero variance) and excludes them from further calculations
+                    # center - subtracts the mean of the predictor's data (again from the data in x) from the predictor values
+                    # scale - divides by the standard deviation
+                  preProcess = c("center","scale","zv"),
+                  trControl = fitControl,
+                  verbose = TRUE
+                  )
+model_rf
+predict_rf = predict(model_rf, test)
+mean((predict_rf-test$Sales)^2)
+plot(predict_rf,test$Sales)
+abline(0,1)
+
+# GBM experiment 1
+set.seed(124)
+model_gbm <- train(Sales ~ ., 
+                   data = train,
+                   method = "gbm",
+                   trControl = fitControl,
+                   verbose = TRUE)
+model_gbm
+predict_gbm = predict(model_gbm, test)
+mean((predict_gbm - test$Sales)^2)
+plot(predict_gbm,test$Sales)
+abline(0,1)
+
+# GBM experiment 2 - with tunegrid parameter tunings
+
+set.seed(124)
+model_gbm2 <- train(Sales ~ ., 
+                   data = train,
+                   method = "gbm",
+                   trControl = fitControl,
+                   verbose = TRUE,
+                   tuneGrid = expand.grid(interaction.depth = c(2),
+                                          n.trees = (1:5)*50,
+                                          shrinkage = 0.1,
+                                          n.minobsinnode = 10)
+                   )
+model_gbm2
+predict_gbm2 = predict(model_gbm2, test)
+mean((predict_gbm2 - test$Sales)^2)
+plot(predict_gbm2,test$Sales)
+abline(0,1)
+
+trellis.par.set(caretTheme())
+plot(model_gbm)
+
+ggplot(model_gbm)
+
+densityplot(model_gbm, pch = "|")
+
+#### Compare models
+
+resamps <- resamples(list(GBM = model_gbm, RF = model_rf))
+resamps
+summary(resamps)
+dotplot(resamps, metric = "RMSE")
+#xyplot(resamps, what = "BlandAltman")
+
 ################################################################################
 ## 3. Leverage H2O framework and leverage algorithms within it
 ################################################################################
