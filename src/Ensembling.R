@@ -7,6 +7,7 @@ library(randomForest) # For random forest
 library(gbm) # For gradient boosting
 library(tree) # For simple decision trees
 library(ISLR)
+library(randomGLM) # For GLM to be used in caret package
 
 ####### About sample dataset that will be used
 ## Considering a sample dataset related "car seats" to compare various approaches
@@ -126,6 +127,33 @@ mean((predict_rf-test$Sales)^2)
 plot(predict_rf,test$Sales)
 abline(0,1)
 
+# GLM (Generalized Linear Model) - using method as randomGLM 
+set.seed(124)
+model_GLM <- train(Sales ~ ., 
+                   data = train,
+                   method = "randomGLM",
+                   trControl = fitControl,
+                   verbose = TRUE)
+model_GLM
+predict_GLM = predict(model_GLM, test)
+mean((predict_GLM - test$Sales)^2)
+plot(predict_GLM,test$Sales)
+abline(0,1)
+
+# GLM (Generalized Linear Model) - using method as glmnet 
+set.seed(124)
+model_GLMnet <- train(Sales ~ ., 
+                   data = train,
+                   method = "glmnet",
+                   trControl = fitControl,
+                   verbose = TRUE)
+model_GLMnet
+predict_GLMnet = predict(model_GLMnet, test)
+mean((predict_GLMnet - test$Sales)^2)
+plot(predict_GLMnet,test$Sales)
+abline(0,1)
+
+
 # GBM experiment 1
 set.seed(124)
 model_gbm <- train(Sales ~ ., 
@@ -160,18 +188,49 @@ abline(0,1)
 
 trellis.par.set(caretTheme())
 plot(model_gbm)
-
 ggplot(model_gbm)
-
 densityplot(model_gbm, pch = "|")
+
+
+# XGBoost - using method as xgbTree 
+# set up the cross-validated hyper-parameter search
+tuneGrid1 = expand.grid(
+  nrounds          = c(25, 50, 100, 200, 350),
+  eta              = c(0.001, 0.01, 0.1, 0.25, 0.4),        
+  max_depth        = c(1, 2, 4, 6, 8),
+  gamma            = 0,
+  colsample_bytree = seq(0.4, 1.0, by = 0.2),
+  min_child_weight = 1,
+  subsample        = seq(0.4, 1.0, by = 0.2)            
+)
+# pack the training control parameters
+xgb_trcontrol_1 = trainControl(
+  method = "cv",
+  number = 3,  
+  allowParallel = TRUE
+)
+set.seed(124)
+# model_xgbTree <- train(Sales ~ ., 
+#                        data     = as.data.frame(train)[,2:11],
+#                        method = "xgbTree",
+#                        trControl = xgb_trcontrol_1,
+#                        tuneGrid = tuneGrid1,
+#                        verbose = TRUE)
+# model_xgbTree
+# predict_xgbTree = predict(model_xgbTree, test)
+# mean((predict_xgbTree - test$Sales)^2)
+# plot(predict_xgbTree,test$Sales)
+# abline(0,1)
+
 
 #### Compare models
 
-resamps <- resamples(list(GBM = model_gbm, RF = model_rf))
+resamps <- resamples(list(GBM = model_gbm, RF = model_rf, GLMnet = model_GLMnet, GLM = model_GLM))
 resamps
 summary(resamps)
 dotplot(resamps, metric = "RMSE")
 #xyplot(resamps, what = "BlandAltman")
+
 
 ################################################################################
 ## 3. Leverage H2O framework and leverage algorithms within it
