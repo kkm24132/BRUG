@@ -23,7 +23,28 @@ This repository captures content of my presentations, code notebooks / informati
     - Multi layer Neural Net
   - Both of these Transparent and Opaque models have Model agnostic and Model specific explainability categories
     - Model Agnostic
+      - Explanation by simplification
+        - Rule based learner
+        - Decision tree
+      - Feature relevance explanation
+        - Influence functions
+        - Sensitivity
+        - Game theory inspired (SHAP)
+        - Interaction based
+      - Local explanations
+        - Rule based learner (Anchors)
+        - Linear approximation (LIME)
+        - Counterfactuals
+      - Visual explanations
+        - Sensitivity
+        - Dependency plots (ICE, PDP etc.)
     - Model Specific
+      - Explanation by simplification
+        - Rule based learners (InTrees)
+        - Decision trees (InTrees)
+        - Distilation
+      - Feature relevance explanation
+        - Feature importance
   
 
 ## 10+10 use cases in Retail in 2020
