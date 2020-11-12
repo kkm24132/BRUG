@@ -9,7 +9,22 @@ This repository captures content of my presentations, code notebooks / informati
 ## Interpretable Machine Learning
 - Please refer to the deck ![ML_Interpretability.pdf](/ML_Interpretability.pdf) for presentation content.
 - The related Jupyter notebook depicting sample dataset demonstration of a LIME package usage is captured ![here](https://github.com/kkm24132/BRUG/blob/master/src/MLExplainability_using_LIME.ipynb) The [nbviewer version is here](https://nbviewer.jupyter.org/github/kkm24132/BRUG/blob/8c5e0d15b1250f86a47d288a6ea9912279fe2b8a/src/MLExplainability_using_LIME.ipynb) which will display the charts for some LIME explanations appropriately.
-
+- Following categorization can be looked at from Model Explainability and Interpretability standpoint:
+  - Transparent models
+    - Linear / Logistic Regression
+    - Decision trees
+    - k-Nearest Neighbours
+    - Rule based learners
+    - Bayesian models
+    - Generative additive models
+  - Opaque models
+    - Random forests
+    - SVM
+    - Multi layer Neural Net
+  - Both of these Transparent and Opaque models have Model agnostic and Model specific explainability categories
+    - Model Agnostic
+    - Model Specific
+  
 
 ## 10+10 use cases in Retail in 2020
 
