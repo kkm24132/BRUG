@@ -157,8 +157,8 @@ Computer vision|imageR|image processing library based on “CImg” (interpolati
 Computer vision|OpenImageR|an image processing toolkit (hashing, edge detection, manipulation)
 
 
-Disclaimer: 
-- The contents of this document are to best of my knowledge and based on my own experiences only. Some data and names MAY BE tweaked/masked to take care of data privacy, sensitivity and business sensitivity aspects if applicable. The information provided is purely to highlight experience gathered with clear business impact created and NO WAY RELATES TO ANY ORGANIZATION or ORGANIZATION's OPINIONS, VIEWS. 
-- Intent is for knowledge sharing and continuous learning as much as possible.
-- Focus is also to share from the quorum and leverage from lessons learnt, continuous learning.
+*Disclaimer:* 
+- *The contents of this document are to best of my knowledge and based on my own experiences only. Some data and names MAY BE tweaked/masked to take care of data privacy, sensitivity and business sensitivity aspects if applicable. The information provided is purely to highlight experience gathered with clear business impact created and NO WAY RELATES TO ANY ORGANIZATION or ORGANIZATION's OPINIONS, VIEWS.*
+- *Intent is for knowledge sharing and continuous learning as much as possible.*
+- *Focus is also to share from the quorum and leverage from lessons learnt, continuous learning.*
 
